@@ -6,11 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'font-awesome/css/font-awesome.css';
 import Counters from "./components/counters"
+import Hooks from './components/hooks';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Counters />
+    <Hooks />
   </React.StrictMode>
 );
 
